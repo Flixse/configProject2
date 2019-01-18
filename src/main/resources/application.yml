@@ -1,0 +1,10 @@
+server:
+  port: 8086
+application:
+  connectionTimeout: 100
+
+---
+spring:
+  profiles: test
+application:
+  connectionTimeout: 1
